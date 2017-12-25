@@ -11,7 +11,7 @@ void user_login()
 	{
 		system("cls");//清屏
 		printf("\n请输入您的用户名：");
-		scanf("%s",name);
+		scanf("%s",name);//输入用户名 
 		u_i=findRecord(name,0,1,0);//查找该用户名 
 		i=u_i;
 		if(i==-1)

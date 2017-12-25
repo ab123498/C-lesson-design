@@ -9,7 +9,7 @@ void rg_menu()//登录菜单
 			case 2:ad_login();break;//管理员登陆 
 			case 3:user_register();break;//新用户注册 
 			case 4:ad_register();break;//管理员注册 
-			case 0:quit();break;
+			case 0:quit();break;//退出系统 
 			default:printf("\n输入错误，请重新选择：\n输入回车后继续");getchar();getchar();
 		}
 	}

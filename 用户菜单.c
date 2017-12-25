@@ -8,12 +8,12 @@ void u_menu()//用户菜单
 	
 		switch(s_u_menu())
 		{
-			case 1:o_water();add_order();break;
-			case 2:my_order();break;
-			case 3:my_info();break;
-			case 4:help();break;
-			case 9:mark=0;break;
-			case 0:quit();break;
+			case 1:o_water();add_order();break;//订购水 
+			case 2:my_order();break;//查看我的订单 
+			case 3:my_info();break;//查看我的信息 
+			case 4:help();break;//帮助 
+			case 9:mark=0;break;//登录标志位清零 
+			case 0:quit();break;//退出系统 
 			default :printf("\n输入错误，请重新选择:\n输入回车后继续");getchar();getchar();
 		}
 	}
