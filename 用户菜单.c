@@ -13,7 +13,7 @@ void u_menu()//用户菜单
 			case 3:my_info();break;//查看我的信息 
 			case 4:help();break;//帮助 
 			case 9:mark=0;break;//登录标志位清零 
-			case 0:quit();break;//退出系统 
+			case 0:quit();break;//hello 
 			default :printf("\n输入错误，请重新选择:\n输入回车后继续");getchar();getchar();
 		}
 	}
